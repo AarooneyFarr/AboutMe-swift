@@ -45,14 +45,23 @@
                                 <state key="normal" title="Background">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="toBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pLg-R1-HLp"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KIf-OF-Kwc">
-                                <rect key="frame" x="180" y="147" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ME" translatesAutoresizingMaskIntoConstraints="NO" id="KIf-OF-Kwc">
+                                <rect key="frame" x="180" y="42" width="240" height="288"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
                     </view>
+                    <connections>
+                        <segue destination="aW2-PR-w0M" kind="show" identifier="toBackgroundFromMain" id="CKH-Bt-wGh"/>
+                        <segue destination="1yk-N1-e3l" kind="show" identifier="toFamilyFromMain" id="w6f-C4-S85"/>
+                        <segue destination="7aJ-xa-tHF" kind="show" identifier="toAcademicsFromMain" id="YPH-aH-rWb"/>
+                        <segue destination="IGl-S4-ndn" kind="show" identifier="toHobbiesFromMain" id="9Ls-qc-b08"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -74,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1sw-UX-qfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="635" y="1075"/>
+            <point key="canvasLocation" x="635" y="1175"/>
         </scene>
         <!--Background-->
         <scene sceneID="Qvh-88-pPE">
@@ -92,7 +101,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="min-kB-RKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1261" y="1075"/>
+            <point key="canvasLocation" x="1322" y="1175"/>
         </scene>
         <!--Academics-->
         <scene sceneID="HPd-yN-pg4">
@@ -110,7 +119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yAJ-mp-uRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1261" y="-241"/>
+            <point key="canvasLocation" x="1322" y="-273"/>
         </scene>
         <!--Family Screen-->
         <scene sceneID="ige-La-Bvg">
@@ -128,7 +137,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2M9-7Z-3at" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1261" y="418"/>
+            <point key="canvasLocation" x="1322" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ME" width="311" height="457"/>
+    </resources>
 </document>
