@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2404D4551DA538FF00AEFD3D /* Hobbies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404D4541DA538FF00AEFD3D /* Hobbies.swift */; };
+		2404D4571DA53A1200AEFD3D /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404D4561DA53A1200AEFD3D /* Background.swift */; };
+		2404D4591DA53ACE00AEFD3D /* Academics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2404D4581DA53ACE00AEFD3D /* Academics.swift */; };
 		24E8BE251DA2AEC100E90526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8BE241DA2AEC100E90526 /* AppDelegate.swift */; };
 		24E8BE271DA2AEC100E90526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8BE261DA2AEC100E90526 /* ViewController.swift */; };
 		24E8BE2A1DA2AEC100E90526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E8BE281DA2AEC100E90526 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2404D4541DA538FF00AEFD3D /* Hobbies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hobbies.swift; sourceTree = "<group>"; };
+		2404D4561DA53A1200AEFD3D /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		2404D4581DA53ACE00AEFD3D /* Academics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Academics.swift; sourceTree = "<group>"; };
 		24E8BE211DA2AEC100E90526 /* AboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E8BE241DA2AEC100E90526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24E8BE261DA2AEC100E90526 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 				24E8BE241DA2AEC100E90526 /* AppDelegate.swift */,
 				24E8BE261DA2AEC100E90526 /* ViewController.swift */,
 				24E8BE381DA2AFAB00E90526 /* FamilyScreen.swift */,
+				2404D4541DA538FF00AEFD3D /* Hobbies.swift */,
+				2404D4561DA53A1200AEFD3D /* Background.swift */,
+				2404D4581DA53ACE00AEFD3D /* Academics.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -154,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2404D4551DA538FF00AEFD3D /* Hobbies.swift in Sources */,
 				24E8BE271DA2AEC100E90526 /* ViewController.swift in Sources */,
 				24E8BE251DA2AEC100E90526 /* AppDelegate.swift in Sources */,
 				24E8BE391DA2AFAB00E90526 /* FamilyScreen.swift in Sources */,
+				2404D4591DA53ACE00AEFD3D /* Academics.swift in Sources */,
+				2404D4571DA53A1200AEFD3D /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +318,7 @@
 				24E8BE351DA2AEC100E90526 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
