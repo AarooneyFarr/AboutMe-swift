@@ -14,4 +14,8 @@ class Hobbies: UIViewController
     {
         super.viewDidLoad()
     }
+    @IBAction func toMain(sender: UIButton)
+    {
+        performSegueWithIdentifier("toMainFromHobbies", sender: sender)
+    }
 }

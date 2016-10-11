@@ -23,6 +23,19 @@ class ViewController: UIViewController {
     {
         performSegueWithIdentifier("toBackgroundFromMain", sender: sender)
     }
+    @IBAction func toHobbies(sender: UIButton)
+    {
+        performSegueWithIdentifier("toHobbiesFromMain", sender: sender)
+    }
+    @IBAction func toAcademics(sender: UIButton)
+    {
+        performSegueWithIdentifier("toAcademicsFromMain", sender: sender)
+    }
+    @IBAction func toFamily(sender: UIButton)
+    {
+        performSegueWithIdentifier("toFamilyFromMain", sender: sender)
+    }
+    
 
 
 }

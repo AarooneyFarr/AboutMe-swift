@@ -14,4 +14,8 @@ class Academics: UIViewController
     {
         super.viewDidLoad()
     }
+    @IBAction func toMain(sender: UIButton)
+    {
+        performSegueWithIdentifier("toMainFromAcademics", sender: sender)
+    }
 }

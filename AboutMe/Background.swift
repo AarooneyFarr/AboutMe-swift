@@ -14,4 +14,8 @@ class Background: UIViewController
     {
         super.viewDidLoad()
     }
+    @IBAction func toMain(sender: UIButton)
+    {
+        performSegueWithIdentifier("toMainFromBackground", sender: sender)
+    }
 }
