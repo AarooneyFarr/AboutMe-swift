@@ -193,23 +193,24 @@
                                     <action selector="toMain:" destination="7aJ-xa-tHF" eventType="touchUpInside" id="3HG-RB-rlB"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rEa-T7-RcR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Airport" translatesAutoresizingMaskIntoConstraints="NO" id="rEa-T7-RcR">
                                 <rect key="frame" x="20" y="66" width="240" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Hy-9p-wk9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camp Tracy" translatesAutoresizingMaskIntoConstraints="NO" id="7Hy-9p-wk9">
                                 <rect key="frame" x="340" y="66" width="240" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FVd-iT-Vx3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Treehouse" translatesAutoresizingMaskIntoConstraints="NO" id="FVd-iT-Vx3">
                                 <rect key="frame" x="340" y="202" width="240" height="128"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U52-pA-VSY">
                                 <rect key="frame" x="180" y="372" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">I have had four jobs. Night Manager at Draper Elementary, Lifeguard at Treehouse and Camp Tracy, and cleaner at the SLC airport.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5jt-nd-JEY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Draper Elementary" translatesAutoresizingMaskIntoConstraints="NO" id="5jt-nd-JEY">
                                 <rect key="frame" x="20" y="202" width="240" height="128"/>
                             </imageView>
                         </subviews>
@@ -266,11 +267,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Airport" width="268" height="188"/>
+        <image name="Camp Tracy" width="275" height="183"/>
         <image name="Chemistry" width="300" height="168"/>
+        <image name="Draper Elementary" width="277" height="182"/>
         <image name="Draper-UT" width="1024" height="768"/>
         <image name="ME" width="311" height="457"/>
         <image name="Sports" width="299" height="168"/>
         <image name="St-George-Utah-72" width="535" height="247"/>
+        <image name="Treehouse" width="206" height="244"/>
         <image name="famfinal" width="2757" height="2136"/>
         <image name="lasvegas" width="309" height="163"/>
         <image name="programming" width="275" height="183"/>
